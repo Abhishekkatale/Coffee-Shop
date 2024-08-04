@@ -9,9 +9,9 @@ body {
 }
 
 .header {
-    background-color: #8B4513;
+    background-color: #E97420;
     color: white;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -37,12 +37,12 @@ body {
 .hero {
     position: relative;
     text-align: center;
-    color: white;
+    color: #664141;
 }
 
 .hero img {
-    width: 100%;
-    height: auto;
+    width: 1700px;
+    height: 650px;
     opacity: 0.7;
 }
 
@@ -78,30 +78,63 @@ body {
     background-color: #FF4500;
 }
 
-.about, .menu, .contact {
+.about{
     padding: 50px 20px;
     text-align: center;
+    background-color: #f6e5e5;
+    height: 300px;
+}
+.menu{
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #d0e9ff;
 }
 
-.about h2, .menu h2, .contact h2 {
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: var(--gainsboro);
+}
+
+
+.about h2, .contact h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
     margin-bottom: 20px;
 }
-
+.menu h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.about p{
+    padding-left: 120px;
+    padding-right: 120px;
+}
 .menu-items {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
 }
 
 .menu-item {
+    background-color: #f9f9f9;
     padding: 20px;
-    border: 1px solid #ddd;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+    width: 300px;
+    height: 400px;
 }
+
+.menu-item img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
 
 .menu-item:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
